@@ -1,0 +1,12 @@
+<h2>Players</h2>
+<div *ngFor="let player of players">
+  <h3>
+    <a [title]="player.firstName + ' ' + player.lastName + ' details'">
+      {{ player.firstName }} {{ player.lastName }}
+    </a>
+  </h3>
+  
+  <p *ngIf="player.wins">
+    Wins: {{ player.wins }}
+  </p>
+</div>
