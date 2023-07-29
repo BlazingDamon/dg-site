@@ -17,7 +17,7 @@ public class PlayerController : ControllerBase
         _playerService = playerService;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet(Name = "GetByPlayerId")]
     public Player GetByPlayerId(string playerId)
     {
         return _playerService.GetPlayerById(playerId);
