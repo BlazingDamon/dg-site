@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics.Models", "Models\Statistics.Models\Statistics.Models.csproj", "{FF0167F0-4E88-401A-B3B5-9C1E126F35E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statistics.Models", "Models\Statistics.Models\Statistics.Models.csproj", "{FF0167F0-4E88-401A-B3B5-9C1E126F35E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{B864EAA5-C41F-4145-B2A8-49D0BF048FAC}"
 EndProject
@@ -17,13 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{AE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{FE513BA7-80C3-4D58-84F7-76A106C5749D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics.Domain", "Domain\Statistics.Domain\Statistics.Domain.csproj", "{C83F5193-9C0F-49AA-A35A-4A02CE812C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statistics.Domain", "Domain\Statistics.Domain\Statistics.Domain.csproj", "{C83F5193-9C0F-49AA-A35A-4A02CE812C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics.Entities", "Entities\Statistics.Entities\Statistics.Entities.csproj", "{6C2B42E0-172F-4701-9DFB-322B15DEBF72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statistics.Entities", "Entities\Statistics.Entities\Statistics.Entities.csproj", "{6C2B42E0-172F-4701-9DFB-322B15DEBF72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticsRepository.Core", "Repositories\StatisticsRepository.Core\StatisticsRepository.Core.csproj", "{3171FA18-9839-4561-8A60-9F40E3DF4CCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsRepository.Core", "Repositories\StatisticsRepository.Core\StatisticsRepository.Core.csproj", "{3171FA18-9839-4561-8A60-9F40E3DF4CCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticsRepository.MongoDB", "Repositories\StatisticsRepository.MongoDB\StatisticsRepository.MongoDB.csproj", "{C612E336-85E6-4A8B-AF95-D235F8B33369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsRepository.MongoDB", "Repositories\StatisticsRepository.MongoDB\StatisticsRepository.MongoDB.csproj", "{C612E336-85E6-4A8B-AF95-D235F8B33369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics.API.Tests.Integration", "API\Statistics.API.Tests.Integration\Statistics.API.Tests.Integration.csproj", "{A3DB5A0E-A297-47E2-9ADC-AB422EEC45D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{C612E336-85E6-4A8B-AF95-D235F8B33369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C612E336-85E6-4A8B-AF95-D235F8B33369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C612E336-85E6-4A8B-AF95-D235F8B33369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DB5A0E-A297-47E2-9ADC-AB422EEC45D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DB5A0E-A297-47E2-9ADC-AB422EEC45D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DB5A0E-A297-47E2-9ADC-AB422EEC45D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DB5A0E-A297-47E2-9ADC-AB422EEC45D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{6C2B42E0-172F-4701-9DFB-322B15DEBF72} = {AEC0AF31-A76B-45F7-8BB9-4D74D36DC123}
 		{3171FA18-9839-4561-8A60-9F40E3DF4CCB} = {FE513BA7-80C3-4D58-84F7-76A106C5749D}
 		{C612E336-85E6-4A8B-AF95-D235F8B33369} = {FE513BA7-80C3-4D58-84F7-76A106C5749D}
+		{A3DB5A0E-A297-47E2-9ADC-AB422EEC45D5} = {CD549A01-18CB-48DC-A49A-413DEE99B0F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7DD68239-A5A4-4249-AD8F-B1222030DDBA}

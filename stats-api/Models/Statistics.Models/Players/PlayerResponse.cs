@@ -1,6 +1,6 @@
 ﻿namespace Statistics.Models.Players;
 
-public class Player
+public class PlayerResponse
 {
     public string? PlayerId { get; set; }
     public string? FirstName { get; set; }
